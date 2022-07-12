@@ -1,28 +1,21 @@
-pppp#include"main.h"
-
 /**
- * puts_half - prints half of a string
+ * _strcpy -copy a string
+ * @dest: Destination value
+ * @src: Source value
  *
- * @str: string parameter input
- *
- * Return: Nothing
-*/
+ * Return: the pointer to dest
+ */
 
-void puts_half(char *str)
+char *_strcpy(char *dest, char *src)
 {
-	int l, n;
+	int a, b = 0;
 
-	for (l = 0; str[l] != '\0'; ++l)
-		;
-
-	if (l % 2 == 0)
-	{pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
-		for (n = l /ppppppppppppppppppppppppppppppppppppppppppppp 2; str[n] != '\0'; ++n)
-		ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp	_putchar(str[n]);
-	} else
+	for (a = 0; src[a] != '\0'; ++a)
 	{
-		for (n = ((l - 1) / 2) + 1; str[n] != '\0'; ++n)
-			_putchar(str[n]);
+		dest[b] = src[a];
+		++b;
 	}
-	_putchar('\n');
+	dest[b] = '\0';
+
+	return (dest);
 }
