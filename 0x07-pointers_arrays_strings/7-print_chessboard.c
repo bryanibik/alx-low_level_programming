@@ -1,5 +1,8 @@
+#include "main.h"
+#include "holberton.h"
+
 /**
- *  * print_chessboard - prints the chess board
+ * print_chessboard - prints the chess board
  *
  * @a: input pointer
  *
