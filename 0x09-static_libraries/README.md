@@ -1,2 +1,3 @@
-#!/bin/bash 
-We are learning C programing 
+# Static Libraries in C programming
+
+
